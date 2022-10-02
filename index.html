@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Beasiswa</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="all">
+        <h3>Form Pendaftaran Beasiswa Institut Teknologi PLN</h3>
+        <br />
+        <b><label for="nama">Nama</label></b>
+        <br />
+        <input class="input" type="text" placeholder="" name="nama" required />
+        <br />
+        <b> <label for="">Nim</label></b>
+        <br />
+        <input class="input" type="text" placeholder="" />
+        <br />
+        <b><label for="email">E-mail</label></b>
+        <br />
+        <input
+          class="input"
+          type="email"
+          placeholder=""
+          name="email"
+          required
+        />
+        <br />
+        <b><label for="">Alamat</label></b>
+        <br />
+        <input class="input" type="text" placeholder="" />
+        <br />
+        <b>
+          <label for="">Jenis Kelamin :</label></b>
+          <input type="radio" name="gender" value="male" />
+          <label for="">Laki-Laki</label>
+          <input type="radio" name="gender" value="female" />
+          <label for="">Perempuan</label>
+        <br>
+        <br />
+        <br />
+        <b
+          ><label for="">Jurusan :</label>
+          <select name="Jurusan" id="">
+            <option value="S1 Teknik Informatika">S1 Teknik Informatika</option>
+            <option value="S1 Teknik Elektro">S1 Teknik Elektro</option>
+            <option value="S1 Teknik Mesin">S1 Teknik Mesin</option>
+            <option value="S1 Teknik Sipil">S1 Teknik Sipil</option>
+            <option value="D3 Teknik Mesin">D3 Teknik Mesin</option>
+            <option value="D3 Elektro">D3 Elektro</option>
+            <option value="D3 Teknologi Listrik">D3 Teknologi Listrik</option>
+          </select>
+          <br>
+          <br />
+          <br />
+          <label for="">Portofolio :</label>
+          <input type="text" />
+          <input type="file" />
+          <br>
+          <br />
+          <br />
+          <label for="">Deskripsikan Diri Anda</label>
+          <br />
+          <textarea
+            class="input"
+            name="Comment"
+            id=""
+            cols="60"
+            rows="10"
+          ></textarea>
+          <br />
+          <input class="submit" type="submit" />
+        </b>
+      </div>
+    </section>
+  </body>
+</html>
